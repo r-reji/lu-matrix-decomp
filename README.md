@@ -4,7 +4,7 @@
 
 [DeterminantDistribution.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/DeterminantDistribution.java) is the main file in this repository, information on all other files can be found at the bottom.
 
-This class performs analysis on the variance distribution of the determinants of matricies. The matricies in question are random with values uniformly distributed (0,1). Determinants are computed using LU decomposition - a detailed explanation of the mathematics is available commented within the respect files. The method is an daptation of one found in the book [Numerical Recipes in C](https://www.amazon.co.uk/Numerical-Recipes-3rd-Scientific-Computing-dp-0521880688/dp/0521880688/ref=dp_ob_title_bk).
+This class performs analysis on the variance distribution of the determinants of matrices. The matrices in question are random with values uniformly distributed between (0,1). Determinants are computed using LU decomposition - a detailed explanation of the mathematics is available commented within the respective files. The method is an adaptation of one found in the book [Numerical Recipes in C](https://www.amazon.co.uk/Numerical-Recipes-3rd-Scientific-Computing-dp-0521880688/dp/0521880688/ref=dp_ob_title_bk).
 
 This analysis is performed on a per-size basis on square matricies of n = 2 up to n = 50. The resulting data can be found in [variance.data](https://github.com/r-reji/matrixLUDecomp/blob/main/variance.data). This data was then used to generate the following graphs in MATLAB:
 
