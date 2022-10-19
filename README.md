@@ -1,6 +1,6 @@
 # LU Matrix Decomposition and Analysis
 
-### This repositiory contains code I wrote for a Java Programming module I took in 2019. Assuming you have all the necessary dependancies installed, you should be able to download the repo and run it.
+#### This repositiory contains code I wrote for a Java Programming module I took in 2019. Assuming you have all the necessary dependancies installed, you should be able to download the repo and run it.
 
 [DeterminantDistribution.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/DeterminantDistribution.java) is the main file in this repository, information on all other files can be found at the bottom.
 
