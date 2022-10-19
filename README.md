@@ -1,18 +1,22 @@
-## Getting Started
+# LU Matrix Decomposition and Analysis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# This repositiory contains code I wrote for a Java Programming module I took in 2019. Assuming you have all the necessary dependancies installed, you should be able to download the repo and run it.
 
-## Folder Structure
+#### [DeterminantDistribution.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/DeterminantDistribution.java) is the main file in this repository, information on all other files can be found at the bottom.
 
-The workspace contains two folders by default, where:
+This class performs analysis on the variance distribution of the determinantts of matricies. The matricies in question are random with values uniformly distributed (0,1). Determinants are computed using LU decomposition - a detailed explanation of the mathematics is available commented within the respect files. The method is an daptation of one found in the book [Numerical Recipes in C](https://www.amazon.co.uk/Numerical-Recipes-3rd-Scientific-Computing-dp-0521880688/dp/0521880688/ref=dp_ob_title_bk).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+This analysis is performed on a per-size basis on square matricies of n = 2 up to n = 50. The resulting data can be found in [variance.data](https://github.com/r-reji/matrixLUDecomp/blob/main/variance.data). This data was then used to generate the following graphs in MATLAB:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+![graphs](https://user-images.githubusercontent.com/112977394/196675926-e34aef00-5fa8-43ee-bca6-c39569b14494.png)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- [MatriXException.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/MatrixException.java)
+  > - Defines an exception type that will be used throughout to handle errors.
+- [Matrix.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/Matrix.java)
+  > - Provides a template for a Matrix object as an abstract class
+- [GeneralMatrix.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/GeneralMatrix.java)
+  > - Implements all the necessary functions for general matrix operations
+  > - Implements the LU decomposition algorithm
+- [TriMatrix.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/TriMatrix.java)
+  > - Implements a method to generate a tri-diagonal matrix using the decomposition algorithm defined in the previous class
+  > - Defines the methods for all operations on a tri-diagonal matrix including computing the determinant
