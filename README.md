@@ -1,8 +1,8 @@
 # LU Matrix Decomposition and Analysis
 
-# This repositiory contains code I wrote for a Java Programming module I took in 2019. Assuming you have all the necessary dependancies installed, you should be able to download the repo and run it.
+### This repositiory contains code I wrote for a Java Programming module I took in 2019. Assuming you have all the necessary dependancies installed, you should be able to download the repo and run it.
 
-#### [DeterminantDistribution.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/DeterminantDistribution.java) is the main file in this repository, information on all other files can be found at the bottom.
+[DeterminantDistribution.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/DeterminantDistribution.java) is the main file in this repository, information on all other files can be found at the bottom.
 
 This class performs analysis on the variance distribution of the determinantts of matricies. The matricies in question are random with values uniformly distributed (0,1). Determinants are computed using LU decomposition - a detailed explanation of the mathematics is available commented within the respect files. The method is an daptation of one found in the book [Numerical Recipes in C](https://www.amazon.co.uk/Numerical-Recipes-3rd-Scientific-Computing-dp-0521880688/dp/0521880688/ref=dp_ob_title_bk).
 
