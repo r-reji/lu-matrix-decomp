@@ -11,12 +11,12 @@ This analysis is performed on a per-size basis on square matricies of n = 2 up t
 ![graphs](https://user-images.githubusercontent.com/112977394/196675926-e34aef00-5fa8-43ee-bca6-c39569b14494.png)
 
 - [MatriXException.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/MatrixException.java)
-  > - Defines an exception type that will be used throughout to handle errors.
+   - Defines an exception type that will be used throughout to handle errors.
 - [Matrix.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/Matrix.java)
-  > - Provides a template for a Matrix object as an abstract class
+   - Provides a template for a Matrix object as an abstract class
 - [GeneralMatrix.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/GeneralMatrix.java)
-  > - Implements all the necessary functions for general matrix operations
-  > - Implements the LU decomposition algorithm
+   - Implements all the necessary functions for general matrix operations
+   - Implements the LU decomposition algorithm
 - [TriMatrix.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/TriMatrix.java)
-  > - Implements a method to generate a tri-diagonal matrix using the decomposition algorithm defined in the previous class
-  > - Defines the methods for all operations on a tri-diagonal matrix including computing the determinant
+   - Implements a method to generate a tri-diagonal matrix using the decomposition algorithm defined in the previous class
+   - Defines the methods for all operations on a tri-diagonal matrix including computing the determinant
