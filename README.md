@@ -10,7 +10,7 @@ This analysis is performed on a per-size basis on square matrices of n = 2 up to
 
 ![graphs](https://user-images.githubusercontent.com/112977394/196675926-e34aef00-5fa8-43ee-bca6-c39569b14494.png)
 
-- [MatriXException.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/MatrixException.java)
+- [MatrixException.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/MatrixException.java)
    - Defines an exception type that will be used throughout to handle errors.
 - [Matrix.java](https://github.com/r-reji/matrixLUDecomp/blob/main/src/Matrix.java)
    - Provides a template for a Matrix object as an abstract class
